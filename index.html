@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>
+			Registry Form
+		</title>
+		<meta charset="UTF-8" />
+	</head>
+	
+	<body>
+		<header>
+			<h1> Registry Form </h1>
+		</header>
+		
+		<ul>
+			<li>
+			Home
+			</li>
+			<li>
+			About the site
+			</li>
+			<li>
+			Registry
+			</li>
+			<li>
+			Contact
+			</li>
+			<li>
+			Copyright
+			</li>
+		</ul>
+		
+		<form>
+			<fieldset>
+				<legend>
+				New account registry
+				</legend>
+				Your information is safe with us.
+				<br>
+				<label for="CorporationName"> Corporation Name </label>
+				<br>
+				<input type="text" id="CorporationName" />
+				<br>
+				<label for="email"> Email </label>
+				<br>
+				<input type="text" id="email" />
+				<br>
+				<label for="password"> Password </label>
+				<br>
+				<input type="password" id="password" />
+				<br>
+				<label for="password2"> Password confirmation </label>
+				<br>
+				<input type="password" id="password2" />
+				
+				<br>
+				<label> Country </label>
+				<select>
+					<option value="def">
+					Select a country
+					</option>
+					<option value="MX">
+					México
+					</option>
+					<option value="FR">
+					France
+					</option>
+					<option value="US">
+					Unites States
+					</option>
+					<option value="JP">
+					Japan
+					</option>
+				</select>
+				<br>
+				<label for="M"> Masculine </label>
+				<input type="radio" name="gender" id="M"/>
+				<br>
+				<label for="F"> Femenine </label>
+				<input type="radio" name="gender" id="F"/>
+				<br>
+				<button type="submit">
+				Cancel
+				</button>
+				<button type="submit">
+				Submit
+				</button>
+			</fieldset>
+		</form>
+	</body>
+</html>
